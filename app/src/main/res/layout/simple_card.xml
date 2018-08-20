@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:fitsSystemWindows="true"
+
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--android:fitsSystemWindows="true" is used to ensure that status bar is completely removed properly-->
+
+    <TextView
+        android:id="@+id/card_title_tv"
+        android:text="LOL!"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <ImageView
+        tools:ignore="ContentDescription"
+        android:id="@+id/iv_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:src="@drawable/tglive_logo" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

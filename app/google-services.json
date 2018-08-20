@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "926588877681",
+    "firebase_url": "https://staggeredgridlayer.firebaseio.com",
+    "project_id": "staggeredgridlayer",
+    "storage_bucket": "staggeredgridlayer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926588877681:android:97e901335c1bdcbc",
+        "android_client_info": {
+          "package_name": "inducesmile.com.androidstaggeredgridlayoutmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926588877681-jtmlu61jc79gjmeudfsro40tpaphpur9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl7qPf-P8K-MFY-PPeIUYZrJ9_DKlqD1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
